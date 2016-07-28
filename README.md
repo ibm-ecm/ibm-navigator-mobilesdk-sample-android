@@ -25,3 +25,7 @@ The latest Javadocs for the SDK can be found here: https://ibm-ecm.github.io/ibm
 
 ### Search
 <img src="https://github.com/ibm-ecm/ibm-navigator-mobilesdk-sample-android/raw/master/screenshots/Screenshot_20160715-142023.png" width="400px">
+
+## License
+https://github.com/ibm-ecm/ibm-navigator-mobilesdk-sample-android/blob/master/Ready%20Apps%20open%20source%20license.pdf
+
