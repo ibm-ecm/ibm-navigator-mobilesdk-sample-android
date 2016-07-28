@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IBM Core Sample Application</string>
+    <string name="browse_repository">Browse Repository</string>
+    <string name="search_repository">Search Repository</string>
+
+    <!--Login-->
+    <string name="submit">Submit</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+    <string name="server">Server</string>
+    <string name="loginProgress">Logging in...</string>
+
+    <!--Browse-->
+    <string name="adddoc">Add Document</string>
+    <string name="addfolder">Add Folder</string>
+    <string name="logout">Logout</string>
+
+    <!--Search-->
+    <string name="submit_search">Submit Search</string>
+    <string name="document_title">Document Title</string>
+    <string name="date_created">Date Created</string>
+
+</resources>

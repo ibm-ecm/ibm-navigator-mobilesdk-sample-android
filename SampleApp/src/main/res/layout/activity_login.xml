@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/old_ibm_logo"/>
+
+        <TableLayout
+            android:id="@+id/loginInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_login"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="5dp"
+            android:padding="25dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/userNameRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginBottom="30dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:padding="7dp"
+                    android:hint="@string/username"
+                    android:textAlignment="textEnd"
+                    android:maxLines="1">
+                </android.support.v7.widget.AppCompatEditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/passRow"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:padding="7dp"
+                    android:hint="@string/password"
+                    android:textAlignment="textEnd"
+                    android:inputType="textPassword"
+                    android:maxLines="1">
+                </android.support.v7.widget.AppCompatEditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/serverRow"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/server"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:padding="7dp"
+                    android:hint="@string/server"
+                    android:textAlignment="textEnd"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:maxLines="1">
+                </android.support.v7.widget.AppCompatEditText>
+            </TableRow>
+        </TableLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/loginButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/loginInformation"/>
+    </RelativeLayout>
+</ScrollView>

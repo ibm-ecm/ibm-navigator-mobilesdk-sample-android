@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TableLayout
+        android:id="@+id/searchInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TableRow
+            android:id="@+id/docTitleRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/documentTitleLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/document_title"
+                android:textSize="15sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/documentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textAlignment="textEnd"></android.support.v7.widget.AppCompatEditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/dateCreatedRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/dateCreatedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/date_created"
+                android:textSize="15sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/dateCreated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="dd/mm/yyyy"
+                android:inputType="date"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textAlignment="textEnd"></android.support.v7.widget.AppCompatEditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/submitRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="right">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/submit_search" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/contentlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"></ListView>
+</LinearLayout>

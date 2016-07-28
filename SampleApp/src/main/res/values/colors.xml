@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#29000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="actionBar">#4178BE</color>
+    <color name="actionBar_login">#F3F3F3</color>
+    <color name="actionBorder">#C5C5C5</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+    <color name="gray_half_transparent">#5F3C3C3C</color>
+    <color name="top_tab_background">#F9F9F9</color>
+    <color name="straight_line_color">#E0E0E0</color>
+    <color name="hint_edittext">#C7C7CD</color>
+    <color name="settings_gray">#F5F5F5</color>
+    <color name="red_button">#FF0000</color>
+    <color name="settings_label_color_gray">#A1A1A1</color>
+    <color name="separator_gray_line">#F0F2F4</color>
+</resources>

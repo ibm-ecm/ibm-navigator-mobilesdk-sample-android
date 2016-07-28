@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/itemicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/folder_icon" />
+
+    <TextView
+        android:id="@+id/itemlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/itemicon"
+        android:layout_marginLeft="15dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:textSize="15sp" />
+</RelativeLayout>
