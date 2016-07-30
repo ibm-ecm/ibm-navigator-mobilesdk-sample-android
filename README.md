@@ -2,7 +2,7 @@
 
 Sample Application to demonstrate the features of IBM Content Navigator SDK (Java) for Android
 
-**This Sample app will not compile without the IBM Content Navigator SDK jar and its dependency jar files. You can obtain the latest jar files from this link: ** 
+**This Sample app will not compile without the IBM Content Navigator SDK jar and its dependency jar files. You can obtain the latest jar files from this link: https://www-945.ibm.com/support/fixcentral/swg/selectFixes?parent=Enterprise%2BContent%2BManagement&product=ibm/Information+Management/Enterprise+Content+Management+Mobile&release=1.0.0&platform=Android&function=fixId&fixids=IBM_Navigator_Mobile_Java-1.0.0-SDK** 
 
 ## Usage
 
