@@ -1,4 +1,13 @@
-package com.ibm.ecm.sample.activities;
+/*
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corporation 2015, 2023. All Rights Reserved.
+ * This sample program is provided AS IS and may be used, executed, copied
+ * and modified without royalty payment by customer (a) for its own instruction
+ * and study, (b) in order to develop applications designed to run with an IBM
+ * product, either for customer's own internal use or for redistribution by
+ * customer, as part of such an application, in customer's own products.
+ */
+package app.sample.activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -22,10 +31,10 @@ import com.ibm.ecm.api.coresdk.factory.IBMECMFactory;
 import com.ibm.ecm.api.coresdk.model.IBMECMContentItem;
 import com.ibm.ecm.api.coresdk.model.IBMECMProgressListener;
 import com.ibm.ecm.api.coresdk.model.IBMECMRepository;
-import com.ibm.ecm.sample.R;
-import com.ibm.ecm.sample.adapter.ContentItemArrayAdapter;
-import com.ibm.ecm.sample.app.IBMECMSampleApplication;
-import com.ibm.ecm.sample.handler.UICompletionHandler;
+import app.sample.R;
+import app.sample.adapter.ContentItemArrayAdapter;
+import app.sample.app.INMAndroidSDKSample;
+import app.sample.handler.UICompletionHandler;
 
 import java.io.File;
 import java.io.IOException;
@@ -66,7 +75,7 @@ public class SampleBrowseActivity extends AppCompatActivity {
         contentItem = (IBMECMContentItem) getIntent().getSerializableExtra(CONTENT_ITEM);
 
         //Obtain the repository that was saved previously from login.  Look at the SampleLoginActivity for more references.
-        repository = ((IBMECMSampleApplication)getApplicationContext()).getRepository();
+        repository = ((INMAndroidSDKSample)getApplicationContext()).getRepository();
 
         listView = (ListView) findViewById(R.id.contentlist);
         adapter = new ContentItemArrayAdapter(this);
@@ -116,7 +125,7 @@ public class SampleBrowseActivity extends AppCompatActivity {
 
         if (savedInstanceState != null){
             contentItem = (IBMECMContentItem) savedInstanceState.getSerializable(CONTENT_ITEM);
-            repository = ((IBMECMSampleApplication)getApplicationContext()).getRepository();
+            repository = ((INMAndroidSDKSample)getApplicationContext()).getRepository();
         }
     }
 
@@ -291,8 +300,8 @@ public class SampleBrowseActivity extends AppCompatActivity {
         String classId = "Document";
 
         String docTitle = "document_" + Math.abs(new Random().nextInt()) + ".jpg";
-        String fileName = "ibm.jpg";
-        String mimeType = "jpeg";
+        String fileName = "sample.txt";
+        String mimeType = "text/plain";
         try {
             InputStream stream = getAssets().open(fileName);
             boolean addAsMinorVersion = false;

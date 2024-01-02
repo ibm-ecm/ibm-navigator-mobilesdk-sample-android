@@ -1,4 +1,13 @@
-package com.ibm.ecm.sample.app;
+/*
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corporation 2015, 2023. All Rights Reserved.
+ * This sample program is provided AS IS and may be used, executed, copied
+ * and modified without royalty payment by customer (a) for its own instruction
+ * and study, (b) in order to develop applications designed to run with an IBM
+ * product, either for customer's own internal use or for redistribution by
+ * customer, as part of such an application, in customer's own products.
+ */
+package app.sample.app;
 
 import android.app.Application;
 
@@ -11,7 +20,7 @@ import com.ibm.ecm.api.coresdk.model.IBMECMRepository;
  It is only for the purpose of showing how to use the IBM Content Navigator SDK.
  For example, it does not contain robust error handling, recovery, good structure, or design.
  */
-public class IBMECMSampleApplication extends Application {
+public class INMAndroidSDKSample extends Application {
 
     private IBMECMApplication application;
     private IBMECMDesktop desktop;

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 33
     defaultConfig {
-        applicationId "com.ibm.ecm.sample"
+        applicationId "app.sample"
         minSdkVersion 26
         targetSdkVersion 33
         versionCode 1
@@ -22,7 +22,7 @@ android {
     }
     productFlavors {
     }
-    namespace 'com.ibm.ecm.sample'
+    namespace 'app.sample'
 }
 
 dependencies {

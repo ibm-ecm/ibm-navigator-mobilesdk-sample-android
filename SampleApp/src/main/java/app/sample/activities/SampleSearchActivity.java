@@ -1,4 +1,13 @@
-package com.ibm.ecm.sample.activities;
+/*
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corporation 2015, 2023. All Rights Reserved.
+ * This sample program is provided AS IS and may be used, executed, copied
+ * and modified without royalty payment by customer (a) for its own instruction
+ * and study, (b) in order to develop applications designed to run with an IBM
+ * product, either for customer's own internal use or for redistribution by
+ * customer, as part of such an application, in customer's own products.
+ */
+package app.sample.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -21,10 +30,10 @@ import com.ibm.ecm.api.coresdk.model.IBMECMContentItem;
 import com.ibm.ecm.api.coresdk.model.IBMECMRepository;
 import com.ibm.ecm.api.coresdk.model.IBMECMSearchPredicate;
 import com.ibm.ecm.api.coresdk.model.IBMECMSearchPredicateBuilder;
-import com.ibm.ecm.sample.R;
-import com.ibm.ecm.sample.adapter.ContentItemArrayAdapter;
-import com.ibm.ecm.sample.app.IBMECMSampleApplication;
-import com.ibm.ecm.sample.handler.UICompletionHandler;
+import app.sample.R;
+import app.sample.adapter.ContentItemArrayAdapter;
+import app.sample.app.INMAndroidSDKSample;
+import app.sample.handler.UICompletionHandler;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -62,7 +71,7 @@ public class SampleSearchActivity extends AppCompatActivity {
         setContentView(R.layout.activity_search);
 
         //Obtain the repository that was saved previously from login.  Look at the SampleLoginActivity for more references.
-        repository = ((IBMECMSampleApplication)getApplicationContext()).getRepository();
+        repository = ((INMAndroidSDKSample)getApplicationContext()).getRepository();
 
         getSupportActionBar().setTitle(getResources().getString(R.string.search_repository));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -1,4 +1,13 @@
-package com.ibm.ecm.sample.activities;
+/*
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corporation 2015, 2023. All Rights Reserved.
+ * This sample program is provided AS IS and may be used, executed, copied
+ * and modified without royalty payment by customer (a) for its own instruction
+ * and study, (b) in order to develop applications designed to run with an IBM
+ * product, either for customer's own internal use or for redistribution by
+ * customer, as part of such an application, in customer's own products.
+ */
+package app.sample.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +22,9 @@ import android.widget.ListView;
 import com.ibm.ecm.api.coresdk.exception.IBMECMRuntimeException;
 import com.ibm.ecm.api.coresdk.factory.IBMECMFactory;
 import com.ibm.ecm.api.coresdk.model.IBMECMRepository;
-import com.ibm.ecm.sample.R;
-import com.ibm.ecm.sample.app.IBMECMSampleApplication;
-import com.ibm.ecm.sample.handler.UICompletionHandler;
+import app.sample.R;
+import app.sample.app.INMAndroidSDKSample;
+import app.sample.handler.UICompletionHandler;
 
 /**
  Important: This sample project is not intended to be a tutorial on how to design or create an Android application.
@@ -34,7 +43,7 @@ public class SampleRootActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse);
 
-        IBMECMRepository repository = ((IBMECMSampleApplication)getApplicationContext()).getRepository();
+        IBMECMRepository repository = ((INMAndroidSDKSample)getApplicationContext()).getRepository();
         getSupportActionBar().setTitle(repository.getName());
 
         listView = (ListView) findViewById(R.id.contentlist);

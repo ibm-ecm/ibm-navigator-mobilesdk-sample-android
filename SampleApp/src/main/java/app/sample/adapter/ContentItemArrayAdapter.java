@@ -1,4 +1,13 @@
-package com.ibm.ecm.sample.adapter;
+/*
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corporation 2015, 2023. All Rights Reserved.
+ * This sample program is provided AS IS and may be used, executed, copied
+ * and modified without royalty payment by customer (a) for its own instruction
+ * and study, (b) in order to develop applications designed to run with an IBM
+ * product, either for customer's own internal use or for redistribution by
+ * customer, as part of such an application, in customer's own products.
+ */
+package app.sample.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,9 +19,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ibm.ecm.api.coresdk.model.IBMECMContentItem;
-import com.ibm.ecm.sample.R;
-import com.ibm.ecm.sample.activities.SampleBrowseActivity;
-import com.ibm.ecm.sample.activities.SampleSearchActivity;
+import app.sample.R;
+import app.sample.activities.SampleBrowseActivity;
+import app.sample.activities.SampleSearchActivity;
 
 import java.util.ArrayList;
 
