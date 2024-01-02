@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.FileProvider;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -211,7 +212,9 @@ public class SampleBrowseActivity extends AppCompatActivity {
     private void viewFile(IBMECMContentItem item, File file){
         Intent i = new Intent();
         i.setAction(android.content.Intent.ACTION_VIEW);
-        i.setDataAndType(Uri.fromFile(file), item.getMimetype());
+        i.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        Uri fileUri = FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", file);
+        i.setDataAndType(fileUri, item.getMimetype());
         startActivity(i);
     }
 
