@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ibm-navigator-mobilesdk-sample-android.iml" filepath="$PROJECT_DIR$/ibm-navigator-mobilesdk-sample-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ibm-navigator-mobilesdk-sample-android.iml" filepath="$PROJECT_DIR$/.idea/modules/ibm-navigator-mobilesdk-sample-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SampleApp/ibm-navigator-mobilesdk-sample-android.SampleApp.iml" filepath="$PROJECT_DIR$/.idea/modules/SampleApp/ibm-navigator-mobilesdk-sample-android.SampleApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SampleApp/ibm-navigator-mobilesdk-sample-android.SampleApp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SampleApp/ibm-navigator-mobilesdk-sample-android.SampleApp.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SampleApp/ibm-navigator-mobilesdk-sample-android.SampleApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SampleApp/ibm-navigator-mobilesdk-sample-android.SampleApp.main.iml" />

@@ -57,15 +57,20 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/IBMECMCore-1.0.0.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/slf4j-api-1.7.18.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/commons-codec-1.9.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/okio-1.6.0.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/annotations-3.0.0.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/gson-2.5.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/okhttp-urlconnection-3.0.1.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/commons-lang-2.2.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/okhttp-3.0.1.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/IBMECMCore-4.0.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/javax.annotation-api-1.3.2.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/slf4j-api-1.7.30.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/okhttp-4.12.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/gson-2.10.1.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/annotations-13.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/commons-codec-1.16.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/okhttp-urlconnection-4.12.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/kotlin-stdlib-jdk7-1.9.10.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/okio-jvm-3.6.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/commons-lang3-3.12.0.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/kotlin-stdlib-common-1.9.10.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/kotlin-stdlib-jdk8-1.9.10.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./SampleApp/libs/lib/kotlin-stdlib-1.9.10.jar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="ibm-navigator-mobilesdk-sample-android.SampleApp.main" />
 </module>
