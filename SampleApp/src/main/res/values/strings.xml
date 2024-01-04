@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IBM Core Sample Application</string>
+    <string name="app_name">INMAndroidSDKSample</string>
     <string name="browse_repository">Browse Repository</string>
     <string name="search_repository">Search Repository</string>
 
