@@ -6,7 +6,7 @@ The IBM Navigator Mobile Android SDK jar and its dependency jar files are requir
 
 ## Usage
 
-Create a "libs" folder under "SampleApp" directory and simply place IBMECMCore.jar and its dependency jars into that folder. The sample app's gradle file already has a reference to the SDK jars. You can connect only to IBM Content Navigator V3.0.11 or later (more information [here](https://www.ibm.com/docs/en/content-navigator))
+Create a "libs" folder under the "SampleApp" directory and place the IBMECMCore.jar and its dependency jars into the "/SampleApp/libs" folder. The build.gradle file already has a reference to the SDK jars. You can connect only to IBM Content Navigator Version 3.0.11 or later (more information [here](https://www.ibm.com/docs/en/content-navigator))
 
 ## Documention
 The Javadocs can be found in the SDK.
@@ -25,5 +25,5 @@ The Javadocs can be found in the SDK.
 <img src="screenshots/search.png" width="400px">
 
 ## License
-See the [License](/Ready%20Apps%20open%20source%20license.pdf) text for more information about how this application is licensed.
+See the [License agreement](/Ready%20Apps%20open%20source%20license.pdf) for more information about how this application is licensed.
 
